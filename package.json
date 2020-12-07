@@ -9,7 +9,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "embark": "^6.0.0",
     "embark-basic-pipeline": "^6.0.0",
     "embark-geth": "^6.0.0",
     "embark-graph": "^6.0.0",
@@ -18,7 +17,6 @@
     "embark-profiler": "^6.0.0",
     "embark-swarm": "^6.0.0",
     "embark-whisper-geth": "^6.0.0",
-    "embarkjs": "^6.0.0",
     "embarkjs-ens": "^6.0.0",
     "embarkjs-ipfs": "^6.0.0",
     "embarkjs-swarm": "^6.0.0",
@@ -26,8 +24,17 @@
     "embarkjs-whisper": "^6.0.0"
   },
   "dependencies": {
+    "@aws-amplify/ui-components": "^0.9.6",
+    "@aws-amplify/ui-react": "^0.2.31",
+    "aws-amplify": "^3.3.11",
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.7.1"
   }
 }

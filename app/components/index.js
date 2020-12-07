@@ -1,3 +1,4 @@
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
+import Home from "./Home";
 
-export {Navbar};
+export {NavBar, Home};
