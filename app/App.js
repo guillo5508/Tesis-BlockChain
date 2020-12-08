@@ -83,9 +83,9 @@ class App extends React.Component {
 
 ReactDOM.render(
   // <React.StrictMode>
-    <Router>
+    // <Router>
       <App />
-    </Router>
+    // </Router>
       
   // </React.StrictMode>
   , 
