@@ -24,7 +24,7 @@ function Home() {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus molestias voluptates rem et nihil aliquid tempora error, laudantium qui? Necessitatibus ipsa quos itaque perspiciatis veritatis, adipisci quasi dicta amet labore.
                   </h2>
                   <div className="mt-3 pt-3">
-                    <a href="http://localhost:55555" target="_blank" className="btn-get-started">Ver dashboard</a>
+                    <a href="http://localhost:55555" rel="noopener noreferrer" target="_blank" className="btn-get-started">Ver dashboard</a>
                   </div>
                 </div>
                 <div className="homeImg header-img col-sm-12 col-md-6 col-lg-6 order-sm-1 order-md-1 order-lg-1">

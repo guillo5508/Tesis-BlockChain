@@ -182,12 +182,12 @@ input.form-control {
 
 /* Card */
 
-.foodcard-container:hover {
+/* .foodcard-container:hover {
   box-shadow: 0px 0px 15px rgba(59, 31, 28, 0.3);
   transition: 0.5s;
   animation: 0.5s ease-in-out alternate-reverse both;
   transition: 30ms;
-}
+} */
 
 .foodcard-container {
   display: flex;
