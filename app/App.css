@@ -1,4 +1,4 @@
-div {
+.div-tabs {
   margin: 15px;
 }
 
@@ -69,4 +69,168 @@ input.form-control {
 
 .inline-input-btn .btn {
   border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/* MAIN SECTION */
+
+.imgWrapper {
+  position: fixed;
+  filter: sepia(70%) blur(3px);
+  top: -10px;
+  z-index: -1;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header .homeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: rgb(0, 138, 180);
+}
+
+#header h2 {
+  color: rgb(0, 0, 0);
+  line-height: 1cm;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+  background-color: rgb(0, 138, 180);
+  border: 3px solid rgb(0, 138, 180);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 138, 180);
+  text-decoration: none;
+  border: 3px solid rgb(0, 138, 180);
+  transition: 30ms;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 991px) {
+  #header .homeText {
+    display: flex !important;
+    padding-top: 0px !important;
+    margin: auto;
+  }
+
+  #header .homeImg {
+    padding-top: 50px !important;
+    width: 80%;
+    height: 80%;
+  }
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Card */
+
+.foodcard-container:hover {
+  box-shadow: 0px 0px 15px rgba(59, 31, 28, 0.3);
+  transition: 0.5s;
+  animation: 0.5s ease-in-out alternate-reverse both;
+  transition: 30ms;
+}
+
+.foodcard-container {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: space-evenly;
+}
+
+.foodcard-container .card-img-top {
+  margin: 15px;
+  /* width: 70%;
+  height: 70%; */
+}
+
+.foodcard-container .price {
+  color: darkgreen;
+  font-size: 0.9rem;
+}
+
+.foodcard-container .foodcard-btn {
+  border: 1px solid rgb(59, 31, 28) !important;
+  background-color: white !important;
+  color: rgb(59, 31, 28) !important;
+}
+
+.foodcard-container .quantity {
+  font-size: 1.5rem;
+  color: rgb(59, 31, 28) !important;
+}
+
+.foodcard-container .math-btn {
+  margin: 10px;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.foodcard-container .foodcard-btn:hover {
+  background-color: rgb(59, 31, 28) !important;
+  color: white !important;
+  transition: 30ms;
+}
+
+.foodcard-container .alert {
+  font-size: 0.8rem;
 }

@@ -60,21 +60,21 @@ class App extends React.Component {
   render() {
 
     return (
-    <div>             
+    <div className='div-tabs'>             
      <Tabs
       id="controlled-tab-example"
       activeKey={this.state.activeKey}
       onSelect={(k) => this.setState({activeKey: k})}
     >
-      <Tab eventKey="home" title="Home">
+      <Tab eventKey="home" title="Inicio">
         <Home/>
       </Tab>
       <Tab eventKey="contract" title="Smart Contract">
         <Blockchain/>
       </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
+      {/* <Tab eventKey="contact" title="Contact" disabled>
         hola3
-      </Tab>
+      </Tab> */}
     </Tabs>
 
     </div>);
@@ -83,7 +83,10 @@ class App extends React.Component {
 
 ReactDOM.render(
   // <React.StrictMode>
+    <Router>
       <App />
+    </Router>
+      
   // </React.StrictMode>
   , 
   document.getElementById('root')
