@@ -5,8 +5,8 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // import {NavBar} from './components';
 import EmbarkJS from 'Embark/EmbarkJS';
-import Blockchain from './components/blockchain';
-import { Home} from "./views";
+// import Blockchain from './components/blockchain';
+import {Home, Blockchain} from "./views";
 // import {Home} from './components'
 // import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
 import {Tabs, Tab} from 'react-bootstrap';
